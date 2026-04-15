@@ -3,15 +3,14 @@
 using namespace std;
 
 int main(){
-	// understand problem more importants
-	int m ,n, result; cin >> m >> n ;
-	if (m > n)
-		swap(m,n);
+	ios_base::sync_with_stdio(false); cin.tie(NULL);
+	//u can do it, here is the code place
+	//just map on the paper first (understand the problem first), so solve
 	
-	result =  m * n;
-	int max_of_domino_part = result /2 ;
-
-	cout << max_of_domino_part << endl;
+	int m , n; cin >> m >> n;
+	if ( m > n) swap(m ,n );
+	int result = m*n/2;
+	cout << result << endl;
 
 	return 0;
 }
