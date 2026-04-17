@@ -31,3 +31,14 @@ int main(){
     cout << ans << endl;
     return 0;
 }
+
+/*
+//approach method
+input matrix 
+check 1 position 
+    save 1[i][j] position
+    as curx = i , cury = j;
+bc i == 2 j == 2 is the beautifull matrix 
+so swap_result = abs(curx-2)+abs(cury -2)
+output swap_result
+*/
